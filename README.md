@@ -2,29 +2,19 @@
 
 #### 介绍
 使用Appium自动化测试工具，做安卓端UI自动化测试，实现数据分离，与代码接耦，将测试用例数据，如定位类型（xpath、id、name、className、tagName）、元素定位路径（//android.view.View[@text='学习'][@index=1]）、元素显式等待时间、case描述、元素操作（click、sendKeys）、断言数据全部书写在properties。
+通过读取properties文件到代码中，实现一个文件对应一个测试场景，一个测试场景对应一个测试类实例对象，若执行多个场景的用例，创建该类的多个实例，构造函数中传入文件
+名称即可，详见代码及properties文件中说明注释
 
 #### 软件架构
-软件架构说明
+采用的appium测试框架
 
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  安装Appium服务端，启动服务
+2.  服务端安装安卓模拟器或真机
+3.  安装Appium客户端，即引入Appium中java的类库jar包，借助IDE工具编写代码，实现与服务端的交互
 
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
 
 
 #### 特技
